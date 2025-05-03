@@ -1,6 +1,3 @@
 #!/bin/bash
-
-date
-cal
-hostname
-echo "Hello Jenkins" >> hello.txt
+echo 'New file' > newfile.txt
+df -Th
