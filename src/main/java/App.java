@@ -7,10 +7,11 @@ public class App {
 
 }
 
-public class App2 {
+class App2 {
     public static void sayHello() {
         System.out.println("Hello from App2 class");
     }
 
 }
+
 
