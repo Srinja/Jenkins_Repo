@@ -1,11 +1,11 @@
 package com.example.demo;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello from Jenkins Demo!");
-    }
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    public static int add(int a, int b) {
-        return a + b;
+public class AppTest {
+    @Test
+    public void testAdd() {
+        assertEquals(5, App.add(2, 3));
     }
 }
