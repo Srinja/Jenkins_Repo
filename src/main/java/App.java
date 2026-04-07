@@ -1,22 +1,11 @@
-package com.example;
+package com.example.demo;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello from Jenkins + Maven!");
-      
+        System.out.println("Hello from Jenkins Demo!");
     }
 
-}
-
-class App2 {
-    public static void sayHello() {
-        System.out.println("Hello from App2 class");
-    }
-    public static void main(String[] args) {
-        sayHello();      
+    public static int add(int a, int b) {
+        return a + b;
     }
 }
-
-
-
-
